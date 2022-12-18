@@ -1,16 +1,4 @@
-//exchange rate
-const apiKey = "3SIEqKoXoPbSNJMRA1KGwRd51UEZ4wqW"
-var myHeaders = new Headers();
-myHeaders.append("apikey", apiKey)
 
-var requestOptions = {
-  method: 'GET',
-  redirect: 'follow',
-  headers: myHeaders
-};
-async function fetchData(originalCurrency, convertToCurrency, amount){
-
-}
 //server
 
 const express = require('express')
